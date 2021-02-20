@@ -1,0 +1,9 @@
+# see:
+#  https://github.com/argoproj/argo-helm/blob/master/charts/argo/values.yaml
+#  https://github.com/argoproj/argo-workflows/blob/master/docs/workflow-controller-configmap.yaml
+
+argo-wf:
+  controller:
+    # see: https://argoproj.github.io/argo-workflows/workflow-restrictions/
+    workflowRestrictions:
+      templateReferencing: Secure
