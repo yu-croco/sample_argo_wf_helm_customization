@@ -4,6 +4,7 @@ description: sample Helm Chart to customize Argo Helm Charts
 type: application
 version: 0.1.0
 appVersion: "1.16.0"
+# see: https://helm.sh/docs/helm/helm_dependency/
 dependencies:
   - name: argo
     version: 0.16.2

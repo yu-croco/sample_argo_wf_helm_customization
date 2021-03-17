@@ -5,5 +5,6 @@
 argo-wf:
   controller:
     # see: https://argoproj.github.io/argo-workflows/workflow-restrictions/
+    #      https://github.com/argoproj/argo-helm/blob/master/charts/argo/values.yaml#L78
     workflowRestrictions:
       templateReferencing: Secure
