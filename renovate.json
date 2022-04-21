@@ -1,0 +1,6 @@
+{
+  "enabled": true,
+  "prHeader": "- [ ] これはprHeader",
+  "prBodyNotes": [ "- [ ] これはprBodyNotes" ],
+  "prFooter": "- [ ] これはprFooter"
+}
