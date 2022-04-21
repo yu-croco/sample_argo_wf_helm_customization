@@ -1,5 +1,6 @@
 {
-  "extends": [
-    "config:base"
-  ]
+  "enabled": true,
+  "prHeader": "- [ ] これはprHeader",
+  "prBodyNotes": [ "- [ ] これはprBodyNotes" ],
+  "prFooter": "- [ ] これはprFooter"
 }
